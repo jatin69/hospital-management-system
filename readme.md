@@ -2,14 +2,22 @@
 
 A simple hospital management system with GUI using Java JFrames and MySQL database.
 
+## Features
+
+- add patient
+- discharge patient
+- add prescription
+- search
+
 ## Dev
 
-- `Trivia` -  This code was made way back in 2015
-- `Requirement` - Java JDBC Driver (`com.mysql.jdbc.Driver`) is required to connect to database
-- There's one external dependency `jcalendar-1.4.jar` which is provided in this repo
+- `Info` -  This code was made way back in 2015
+- `Dependencies` - attached
+    + Java JDBC Driver (`com.mysql.jdbc.Driver`) is required to connect to database
+    + one external dependency `jcalendar-1.4.jar`
 - MySQL is used as a database
-- Database credentials are set in `src/myDB/DBconnect.java`
-- `Issue` - Database dump is not available for now, however, it can be easily remade by reverse engineering the queries used in the project
+    + Database credentials are set in `src/myDB/DBconnect.java`
+    + Database Strcuture and commands are given in `database.md`
 - Recommended editor is `Netbeans` for this project
     + It provides GUI design with drag and drop
     + Easily resolves dependencies
